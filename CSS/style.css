@@ -1,0 +1,122 @@
+/*Limpar formatação*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 19px;
+}
+
+h2{
+    color: rgb(47, 83, 203);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 30px;
+    padding: 20px;
+}
+
+h3{
+    color: rgb(43, 128, 226);
+}
+p{
+    text-indent: 30px;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    word-wrap: break-word;
+}
+
+ul{
+    padding: 10px;
+    text-align: left;
+    margin-left: 30%;
+}
+li{
+    padding: 3px;
+}
+
+form{
+    margin-left: 30%;
+    text-align: left;
+    padding: 10px;
+}
+
+label, input {
+    margin: 5px;
+    display: block;
+}
+
+textarea{
+    margin: 5px;
+    text-align: ;
+}
+
+.img{
+    width: 20%;
+    padding: 20px;
+}
+
+#header {
+        background-color: black;
+        padding: 15px;
+        text-align: center;
+        }
+
+#header a:link, #header a:visited{
+    color:white;
+    padding: 8px 12px;
+}
+
+#header a:hover {
+    color: blue;
+    background: white;
+    text-decoration: none;
+}
+
+#nome {
+    color: rgb(12, 127, 142);
+    font-style: italic;
+    font-weight: 300;
+}
+
+#menu   {
+    padding: 10px;
+}
+
+#titulo {
+    color: rgb(47, 83, 203);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+#footer {
+    color: rgb(247, 35, 35);
+    padding: 15px;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 35%;
+}
+
+#mensagem {
+    width: 430px;
+    height: 200px;
+}
+.content {
+    width: auto;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #0066cc;
+}
+
+a:hover{
+    text-decoration: underline;
+}
